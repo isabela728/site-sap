@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     background-color: rgb(255, 255, 255);
 }
 
@@ -15,3 +16,26 @@ h1 {
     color: rgb(20, 20, 136);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+#nav_titulo{
+    background-color: rgb(226, 226, 226);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 31px;
+    margin: 0;
+    padding-left: 15px;
+}
+
+#div_nav{
+    padding: 10px;
+    background: repeating-linear-gradient(-45deg,#cfd156c7,#dcee73 30px,#d1b724bb 30px,#e4a906b4 70px);
+}
+
+#aba_edicao{
+    background-color: rgb(226, 226, 226);
+}
+
+.botao_edit{
+    height: 30px;
+}
+
+
