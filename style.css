@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: rgb(255, 255, 255);
 }
 
 #nav_titulo{
@@ -22,3 +23,5 @@ body{
 .botao_edit{
     height: 30px;
 }
+
+
