@@ -2,3 +2,16 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
+.cabecalho {
+    background-color: rgb(199, 225, 247);
+    padding: 30px 40px; /* arrumar o tamanho depois */
+    display: flex;
+    border-radius: 15px;
+    margin: 20px;
+    width: 40%; /*  largura do bloco  */
+}
+
+h1 {
+    color: rgb(20, 20, 136);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
