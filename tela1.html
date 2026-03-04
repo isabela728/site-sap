@@ -225,63 +225,89 @@
                 </table>
             </div>
 
-                <div id="aba_attributes">
-                    <div id="attribute_titulo"><b>Attributes of UIBB: $OTR:/SCMTMS/UI_CMN/ADM_INFO</b></div>
-
-                    <div id="attributes_container1">
+            <div id="aba_attributes">
+                <div id="attribute_titulo">
+                    <b>Attributes of UIBB: $OTR:/SCMTMS/UI_CMN/ADM_INFO</b> 
+                    <button class="botao_1">Final Flags</button>
+                </div>
+                
+                <div class="containers1">
+                    <div class="attributes_container1">
                         <div class="attributes">
                             <label for="">Window Name:</label>
-                            <input value="FORM_WINDOW">
+                            <input class="input_attributes" value="FORM_WINDOW">
                         </div>
-
                         <div class="attributes">
                             <label for="configId">Config ID:</label>
-                            <input value="/SCMTMS/WDCC_CMN_ADMINDATA">
+                            <input class="input_attributes" value="/SCMTMS/WDCC_CMN_ADMINDATA">
                         </div>
-
                         <div class="attributes">
                             <label for="instanceId">Instance ID:</label>
-                            <input type="text" id="instanceId" value="">
+                            <input class="input_attributes" type="text" value="">
                         </div>
-
                         <div class="attributes">
                             <label for="colunm">Column:</label>
-                            <input type="text" id="column" value="">
+                            <input class="input_attributes" type="text" value="">
                         </div>
-
                         <div class="attributes">
                             <label for="sequenceIndex">Sequence index:</label>
-                            <input type="text" id="sequenceIndex" value="">
+                            <input class="input_attributes" type="text" id="sequenceIndex" value="">
                         </div>
-
                         <div class="attributes">
                             <label for="default">Default:</label>
-                            <input type="text" id="default" value="">
+                            <input class="input_attributes" type="text" id="default" value="">
                         </div>
-
                         <div class="attributes">
                             <label for="rowNumber">Row Number:</label>
-                            <input type="text" id="rowNumber" value="">
+                            <input class="input_attributes" type="text" id="rowNumber" value="">
+                        </div>
+                        <div class="attributes">
+                            <label for="hiddenElement">Hidden Element</label>
+                            <select class="input_attributes">
+                                <option>Visible</option>
+                                <option>Hidden and Exclude...</option>
+                                <option>Hidden and Processed...</option>
+                            </select>
+                        </div>     
+                    </div>
+                    <div class="attributes_container1">
+                        <div class="attributes">
+                            <label for="title">Title:</label>
+                            <input class="input_attributes" value="$OTR:/SCMTMS/UI_CMN/ADM_INFO"> 
+                        </div>
+                        <div class="attributes">
+                            <label for="image">Image:</label>
+                            <input class="input_attributes" type="">
+                        </div>
+                        <div class="attributes">
+                            <label for="padding">Padding:</label>
+                            <select class="input_attributes">
+                                <option>Automatic (Default)</option>
+                            </select>
+                        </div>
+                        <div class="attributes">
+                            <label for="style">Style:</label>
+                            <input class="input_attributes" type="text">
+                        </div>
+                        <div class="attributes">
+                            <label for="explanationText">Explanation Text:</label>
+                            <input class="input_attributes" type="text">
+                        </div>
+                        <div class="attributes">
+                            <label for="explanationDoc">Explanation Document:</label>
+                            <input class="input_attributes" type="text">
+                        </div>
+                        <div class="attributes">
+                            <label for="defaultEdit">Default Edit Page:</label>
+                            <input class="input_attributes" type="text">
+                        </div>
+                        <div class="attributes">
+                            <label for="defaultDetails">Default Details Page:</label>
+                            <input class="input_attributes" type="text">
                         </div>
                     </div>
-                    
-                        <div class="attributes">
-                            <label>Hidden Element</label>
-                            <select>
-                                <option>Visible</option>
-                                <option>Hidden</option>
-                                <option>Hidden and Excluded from Event Loop</option>
-                            </select>
-                        </div> 
-                    </div>     
-                
-
-                <div>
-                  <label>Title</label>
-                <input value="$OTR:/SCMTMS/UI_CMN/ADM_INFO">  
                 </div>
-
-            
+            </div>
 
     </main>
 
