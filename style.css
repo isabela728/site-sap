@@ -12,12 +12,16 @@ body{
     width: 40%; /*  largura do bloco  */
 }
 
-h1 {
+#main_1{
+    display: flex;
+}
+
+.h1_tela2 {
     color: rgb(20, 20, 136);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#nav_titulo{
+#nav_titulo_1{
     background-color: rgb(226, 226, 226);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 31px;
@@ -25,17 +29,170 @@ h1 {
     padding-left: 15px;
 }
 
-#div_nav{
+#div_nav_1{
     padding: 10px;
     background: repeating-linear-gradient(-45deg,#cfd156c7,#dcee73 30px,#d1b724bb 30px,#e4a906b4 70px);
 }
 
-#aba_edicao{
+#aba_edicao_1{
     background-color: rgb(226, 226, 226);
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    gap: 10px;
 }
 
-.botao_edit{
-    height: 30px;
+.botao_1{
+    padding: 5px;
+    font-size: 20px;
+}
+
+.botao_1s{
+    padding: 5px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.429);
+}
+
+.separador1{
+    border: 1px solid rgba(148, 147, 147, 0.601);
+    height: 35px;
+}
+
+#aba_navigation{
+    width: 520px;
+    border: 7px solid rgb(226, 226, 226);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+}
+
+.navigation{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.navigation p{
+    margin: 5px;
+}
+
+#navigation_bar{
+    background-color: rgb(226, 226, 226);
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 6px;
+    gap: 6px;
+}
+
+.navigation_tab{
+    width: 100%;
+    border: 1px;
+    border-color: black ;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+.navigation_tab th{
+    background: #e6e6e6;
+    padding: 6px;
+    text-align: left;
+    border: 1px solid #c0c0c0;
+}
+
+.navigation_tab td{
+    padding: 6px;
+    border: 1px solid #dcdcdc;
+}
+
+.navigation_tab tr:hover{
+    background: #507ad68a;
+}
+
+.navigation_tab td:first-child,
+.navigation_tab th:first-child{
+    background: #e6e6e6;
+    padding: 15px;
 }
 
 
+
+#lado_direito1{
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    flex: 1;
+}
+
+.aba_overview{
+    background: white;
+    border: 1px solid #bbb;
+}
+
+.overview_titulo{
+    display: flex;
+    background: #e6e6e6;
+    border-bottom: 1px solid #bbb;
+    gap: 30px;
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+#overview_bar{
+    background-color: rgb(226, 226, 226);
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 6px;
+    gap: 6px;
+}
+
+.overview_tab{
+    width: 100%;
+    border: 1px;
+    border-color: black ;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+.overview_tab th{
+    background: #e6e6e6;
+    padding: 6px;
+    text-align: left;
+    border: 1px solid #c0c0c0;
+}
+
+.overview_tab td{
+    padding: 6px;
+    border: 1px solid #dcdcdc;
+}
+
+.overview_tab tr:hover{
+    background: #507ad68a;
+}
+
+.overview_tab td:first-child,
+.overview_tab th:first-child{
+    background: #e6e6e6;
+    padding: 15px;
+}
+
+
+#aba_attributes{
+    border: 1px solid #bbb;
+    margin-bottom: 15px;
+    margin: 0;
+}
+
+#attribute_titulo{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    border-bottom: 3px solid #0592ce;
+}
+
+.attributes{
+    display: flex;
+}
