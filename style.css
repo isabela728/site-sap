@@ -195,12 +195,9 @@ body {
     border: 1px solid #dcdcdc;
 }
 
-<<<<<<< HEAD
-=======
 .navigation_tab tr:hover {
     background: #507ad68a;
 }
->>>>>>> e1cd95246c8020bfa58c728ff28f22a155e9af52
 
 .navigation_tab td:first-child,
 .navigation_tab th:first-child {
@@ -260,14 +257,9 @@ body {
     border: 1px solid #dcdcdc;
 }
 
-<<<<<<< HEAD
 .navigation_tab tr:hover,
 .overview_tab tr:hover{
     background: #90d6ffa1;
-=======
-.overview_tab tr:hover {
-    background: #507ad68a;
->>>>>>> e1cd95246c8020bfa58c728ff28f22a155e9af52
 }
 
 .overview_tab td:first-child,
@@ -276,14 +268,9 @@ body {
     padding: 15px;
 }
 
-
-<<<<<<< HEAD
-#aba_attributes{
-=======
 #aba_attributes {
     border: 1px solid #bbb;
     margin-bottom: 15px;
->>>>>>> e1cd95246c8020bfa58c728ff28f22a155e9af52
     margin: 0;
 }
 
@@ -296,7 +283,6 @@ body {
 
 .attributes {
     display: flex;
-<<<<<<< HEAD
     align-items: center;
     justify-content: flex-end;
 }
@@ -327,6 +313,4 @@ body {
 
 button{
     cursor: pointer;
-=======
->>>>>>> e1cd95246c8020bfa58c728ff28f22a155e9af52
 }
