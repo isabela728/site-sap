@@ -1,19 +1,101 @@
-body{
+body {
     margin: 0;
     background-color: rgb(255, 255, 255);
 }
 
 .cabecalho {
     background-color: rgb(199, 225, 247);
-    padding: 30px 40px; /* arrumar o tamanho depois */
+    padding: 20px 40px;
     display: flex;
     border-radius: 15px;
     margin: 20px;
-    width: 40%; /*  largura do bloco  */
+    max-width: 53%;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#main_1{
+.falecomigo{
+    background-color:rgb(20, 20, 136);
+    color: white;
+    padding: 6px 15px;
+    border-radius: 25px;
+    border: none;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    font-size: 13px;
+    position: relative;  
+    width: auto;
+      display: inline-block;  
+}
+
+.falecomigo .bolinha {
+    background-color: white;
+    color: rgb(20, 20, 136);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ultimascompras {
+    background-color: rgb(199, 225, 247);
+    padding: 100px 40px;
+    display: flex;
+    border-radius: 15px;
+    margin: 20px;
+    max-width: 53%;
+    position: relative;
+}
+
+
+.menu {
+    background-color: rgb(199, 225, 247);
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-left: auto; 
+}
+
+.menu Li {
+    background-color: rgb(20, 20, 136);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    color: #ffffff;
+    font-weight: 250;
+    font-size: 10px;
+    display: flex;               
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.menu li span {
+    background-color: white;
+    color: rgb(20, 20, 136);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: absolute;
+    right: -10px; 
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.h4_tela2 {
+    color: rgb(20, 20, 136);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 10px;
+    right: 15px;
 }
 
 .h1_tela2 {
@@ -21,7 +103,13 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#nav_titulo_1{
+
+
+#main_1 {
+    display: flex;
+}
+
+#nav_titulo_1 {
     background-color: rgb(226, 226, 226);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 31px;
@@ -29,12 +117,12 @@ body{
     padding-left: 15px;
 }
 
-#div_nav_1{
+#div_nav_1 {
     padding: 10px;
-    background: repeating-linear-gradient(-45deg,#cfd156c7,#dcee73 30px,#d1b724bb 30px,#e4a906b4 70px);
+    background: repeating-linear-gradient(-45deg, #cfd156c7, #dcee73 30px, #d1b724bb 30px, #e4a906b4 70px);
 }
 
-#aba_edicao_1{
+#aba_edicao_1 {
     background-color: rgb(226, 226, 226);
     list-style: none;
     display: flex;
@@ -43,30 +131,30 @@ body{
     gap: 10px;
 }
 
-.botao_1{
+.botao_1 {
     padding: 5px;
     font-size: 20px;
 }
 
-.botao_1s{
+.botao_1s {
     padding: 5px;
     font-size: 20px;
     color: rgba(0, 0, 0, 0.429);
 }
 
-.separador1{
+.separador1 {
     border: 1px solid rgba(148, 147, 147, 0.601);
     height: 35px;
 }
 
-#aba_navigation{
+#aba_navigation {
     width: 520px;
     border: 7px solid rgb(226, 226, 226);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 100vh;
 }
 
-.navigation{
+.navigation {
     display: flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
@@ -74,11 +162,11 @@ body{
     padding-left: 10px;
 }
 
-.navigation p{
+.navigation p {
     margin: 5px;
 }
 
-#navigation_bar{
+#navigation_bar {
     background-color: rgb(226, 226, 226);
     list-style: none;
     display: flex;
@@ -87,48 +175,54 @@ body{
     gap: 6px;
 }
 
-.navigation_tab{
+.navigation_tab {
     width: 100%;
     border: 1px;
-    border-color: black ;
+    border-color: black;
     border-collapse: collapse;
     font-size: 20px;
 }
 
-.navigation_tab th{
+.navigation_tab th {
     background: #e6e6e6;
     padding: 6px;
     text-align: left;
     border: 1px solid #c0c0c0;
 }
 
-.navigation_tab td{
+.navigation_tab td {
     padding: 6px;
     border: 1px solid #dcdcdc;
 }
 
+<<<<<<< HEAD
+=======
+.navigation_tab tr:hover {
+    background: #507ad68a;
+}
+>>>>>>> e1cd95246c8020bfa58c728ff28f22a155e9af52
 
 .navigation_tab td:first-child,
-.navigation_tab th:first-child{
+.navigation_tab th:first-child {
     background: #e6e6e6;
     padding: 15px;
 }
 
 
 
-#lado_direito1{
+#lado_direito1 {
     justify-content: space-between;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     flex: 1;
 }
 
-.aba_overview{
+.aba_overview {
     background: white;
     border: 1px solid #bbb;
 }
 
-.overview_titulo{
+.overview_titulo {
     display: flex;
     background: #e6e6e6;
     border-bottom: 1px solid #bbb;
@@ -137,7 +231,7 @@ body{
     font-size: 25px;
 }
 
-#overview_bar{
+#overview_bar {
     background-color: rgb(226, 226, 226);
     list-style: none;
     display: flex;
@@ -146,51 +240,63 @@ body{
     gap: 6px;
 }
 
-.overview_tab{
+.overview_tab {
     width: 100%;
     border: 1px;
-    border-color: black ;
+    border-color: black;
     border-collapse: collapse;
     font-size: 20px;
 }
 
-.overview_tab th{
+.overview_tab th {
     background: #e6e6e6;
     padding: 6px;
     text-align: left;
     border: 1px solid #c0c0c0;
 }
 
-.overview_tab td{
+.overview_tab td {
     padding: 6px;
     border: 1px solid #dcdcdc;
 }
 
+<<<<<<< HEAD
 .navigation_tab tr:hover,
 .overview_tab tr:hover{
     background: #90d6ffa1;
+=======
+.overview_tab tr:hover {
+    background: #507ad68a;
+>>>>>>> e1cd95246c8020bfa58c728ff28f22a155e9af52
 }
 
 .overview_tab td:first-child,
-.overview_tab th:first-child{
+.overview_tab th:first-child {
     background: #e6e6e6;
     padding: 15px;
 }
 
 
+<<<<<<< HEAD
 #aba_attributes{
+=======
+#aba_attributes {
+    border: 1px solid #bbb;
+    margin-bottom: 15px;
+>>>>>>> e1cd95246c8020bfa58c728ff28f22a155e9af52
     margin: 0;
 }
 
-#attribute_titulo{
+#attribute_titulo {
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 30px;
     border-bottom: 3px solid #0592ce;
 }
 
-.attributes{
+.attributes {
     display: flex;
+<<<<<<< HEAD
     align-items: center;
     justify-content: flex-end;
 }
@@ -221,4 +327,6 @@ body{
 
 button{
     cursor: pointer;
+=======
+>>>>>>> e1cd95246c8020bfa58c728ff28f22a155e9af52
 }
