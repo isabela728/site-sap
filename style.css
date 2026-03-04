@@ -14,17 +14,17 @@ body {
     align-items: center;
 }
 
-.falecomigo{
-    background-color:rgb(20, 20, 136);
+.falecomigo {
+    background-color: rgb(20, 20, 136);
     color: white;
     padding: 6px 15px;
     border-radius: 25px;
     border: none;
     font-family: "Segoe UI", Tahoma, sans-serif;
     font-size: 13px;
-    position: relative;  
+    position: relative;
     width: auto;
-      display: inline-block;  
+    display: inline-block;
 }
 
 .falecomigo .bolinha {
@@ -58,7 +58,7 @@ body {
     display: flex;
     justify-content: flex-end;
     gap: 15px;
-    margin-left: auto; 
+    margin-left: auto;
 }
 
 .menu Li {
@@ -69,7 +69,7 @@ body {
     color: #ffffff;
     font-weight: 250;
     font-size: 10px;
-    display: flex;               
+    display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
@@ -86,23 +86,60 @@ body {
     align-items: center;
     font-weight: bold;
     position: absolute;
-    right: -10px; 
+    right: -10px;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.ultimascompras {
+    border-radius: 20px;
+    padding: 120px 40px;
+    display: flex;
+    justify-content: space-between;
+    
+
 }
 
 .h4_tela2 {
     color: rgb(20, 20, 136);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    top: 10px;
-    right: 15px;
+    position: absolute;
+    left: 25px;
+    top: -5%;
+
 }
 
-.h1_tela2 {
+.vertodas {
     color: rgb(20, 20, 136);
+    text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    right: 75px;
+    top: 5%;
+
+}
+.seta {
+    font-size: 32px;
+    cursor: pointer;
+    color: rgb(20, 20, 136);
 }
 
+.mais {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(20, 20, 136);
+    cursor: pointer;
+}
 
 
 #main_1 {
@@ -258,7 +295,7 @@ body {
 }
 
 .navigation_tab tr:hover,
-.overview_tab tr:hover{
+.overview_tab tr:hover {
     background: #90d6ffa1;
 }
 
@@ -287,18 +324,18 @@ body {
     justify-content: flex-end;
 }
 
-.attributes label{
+.attributes label {
     margin-right: 10px;
     font-size: 18px;
     text-align: right;
     flex: 1;
 }
 
-.containers1{
+.containers1 {
     display: flex;
 }
 
-.attributes_container1{
+.attributes_container1 {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -306,11 +343,11 @@ body {
     margin: 10px;
 }
 
-.input_attributes{
+.input_attributes {
     height: 25px;
     width: 400px;
 }
 
-button{
+button {
     cursor: pointer;
 }
